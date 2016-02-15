@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E809F9BD1B7B6CF200D5D968 /* SpecificLabelWithImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E809F9BC1B7B6CF200D5D968 /* SpecificLabelWithImage.m */; };
+		E815A65F1B7644E30070D479 /* MenuMissionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E815A65E1B7644E30070D479 /* MenuMissionsTableViewController.m */; };
+		E815BBAC1B74EE9B000D84C9 /* GestionnaireCaracteristiquesVaisseau.m in Sources */ = {isa = PBXBuildFile; fileRef = E815BBAB1B74EE9B000D84C9 /* GestionnaireCaracteristiquesVaisseau.m */; };
+		E815CBAE1B73CD2F0082C825 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E815CBAD1B73CD2F0082C825 /* CreditsViewController.m */; };
+		E84221AA1B7750980015C665 /* GestionnaireCaracteristiquesMission.m in Sources */ = {isa = PBXBuildFile; fileRef = E84221A91B7750980015C665 /* GestionnaireCaracteristiquesMission.m */; };
+		E84221AD1B777CA40015C665 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84221AC1B777CA40015C665 /* GameViewController.m */; };
+		E84221B01B7785230015C665 /* GestionnaireCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = E84221AF1B7785230015C665 /* GestionnaireCollision.m */; };
+		E8585E551B748E560077284E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8585E541B748E560077284E /* Localizable.strings */; };
+		E85F52F31B733A0A002D7703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F52F21B733A0A002D7703 /* main.m */; };
+		E85F52F61B733A0A002D7703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F52F51B733A0A002D7703 /* AppDelegate.m */; };
+		E85F52F91B733A0A002D7703 /* DarkAvenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E85F52F71B733A0A002D7703 /* DarkAvenger.xcdatamodeld */; };
+		E85F52FF1B733A0A002D7703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85F52FD1B733A0A002D7703 /* Main.storyboard */; };
+		E85F53011B733A0A002D7703 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85F53001B733A0A002D7703 /* Images.xcassets */; };
+		E85F53041B733A0A002D7703 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85F53021B733A0A002D7703 /* LaunchScreen.xib */; };
+		E85F53101B733A0A002D7703 /* DarkAvengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F530F1B733A0A002D7703 /* DarkAvengerTests.m */; };
+		E85F531F1B733C02002D7703 /* AccueilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F531E1B733C02002D7703 /* AccueilViewController.m */; };
+		E85F53231B733C6C002D7703 /* VaisseauObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F53221B733C6C002D7703 /* VaisseauObject.m */; };
+		E85F53261B733F0B002D7703 /* AsteroideObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F53251B733F0B002D7703 /* AsteroideObject.m */; };
+		E85F53291B7340B2002D7703 /* MissileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F53281B7340B2002D7703 /* MissileObject.m */; };
+		E85F532C1B7340C3002D7703 /* LaserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E85F532B1B7340C3002D7703 /* LaserObject.m */; };
+		E87D88621B978854001D60BD /* GestionnaireAnimationAsteroide.m in Sources */ = {isa = PBXBuildFile; fileRef = E87D88611B978854001D60BD /* GestionnaireAnimationAsteroide.m */; };
+		E8DC61E41B749EF60075FD21 /* SpecificTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC61E31B749EF60075FD21 /* SpecificTableViewCell.m */; };
+		E8DC61E71B74B2D80075FD21 /* SpecificWithoutImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC61E61B74B2D80075FD21 /* SpecificWithoutImageTableViewCell.m */; };
+		E8DC61EA1B74BCAA0075FD21 /* MenuVaisseauTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DC61E91B74BCAA0075FD21 /* MenuVaisseauTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E85F530A1B733A0A002D7703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85F52E51B733A0A002D7703 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E85F52EC1B733A0A002D7703;
+			remoteInfo = DarkAvenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E809F9BB1B7B6CF200D5D968 /* SpecificLabelWithImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecificLabelWithImage.h; path = Class/SpecificLabelWithImage.h; sourceTree = "<group>"; };
+		E809F9BC1B7B6CF200D5D968 /* SpecificLabelWithImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecificLabelWithImage.m; path = Class/SpecificLabelWithImage.m; sourceTree = "<group>"; };
+		E815A65D1B7644E30070D479 /* MenuMissionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuMissionsTableViewController.h; path = ViewController/MenuMissionsTableViewController.h; sourceTree = "<group>"; };
+		E815A65E1B7644E30070D479 /* MenuMissionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuMissionsTableViewController.m; path = ViewController/MenuMissionsTableViewController.m; sourceTree = "<group>"; };
+		E815BBAA1B74EE9B000D84C9 /* GestionnaireCaracteristiquesVaisseau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestionnaireCaracteristiquesVaisseau.h; path = Class/GestionnaireCaracteristiquesVaisseau.h; sourceTree = "<group>"; };
+		E815BBAB1B74EE9B000D84C9 /* GestionnaireCaracteristiquesVaisseau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestionnaireCaracteristiquesVaisseau.m; path = Class/GestionnaireCaracteristiquesVaisseau.m; sourceTree = "<group>"; };
+		E815CBAC1B73CD2F0082C825 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditsViewController.h; path = ViewController/CreditsViewController.h; sourceTree = "<group>"; };
+		E815CBAD1B73CD2F0082C825 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditsViewController.m; path = ViewController/CreditsViewController.m; sourceTree = "<group>"; };
+		E84221A81B7750980015C665 /* GestionnaireCaracteristiquesMission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestionnaireCaracteristiquesMission.h; path = Class/GestionnaireCaracteristiquesMission.h; sourceTree = "<group>"; };
+		E84221A91B7750980015C665 /* GestionnaireCaracteristiquesMission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestionnaireCaracteristiquesMission.m; path = Class/GestionnaireCaracteristiquesMission.m; sourceTree = "<group>"; };
+		E84221AB1B777CA40015C665 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ViewController/GameViewController.h; sourceTree = "<group>"; };
+		E84221AC1B777CA40015C665 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ViewController/GameViewController.m; sourceTree = "<group>"; };
+		E84221AE1B7785230015C665 /* GestionnaireCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestionnaireCollision.h; path = Class/GestionnaireCollision.h; sourceTree = "<group>"; };
+		E84221AF1B7785230015C665 /* GestionnaireCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestionnaireCollision.m; path = Class/GestionnaireCollision.m; sourceTree = "<group>"; };
+		E8585E541B748E560077284E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E85F52ED1B733A0A002D7703 /* DarkAvenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkAvenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85F52F11B733A0A002D7703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85F52F21B733A0A002D7703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E85F52F41B733A0A002D7703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E85F52F51B733A0A002D7703 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E85F52F81B733A0A002D7703 /* DarkAvenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DarkAvenger.xcdatamodel; sourceTree = "<group>"; };
+		E85F52FE1B733A0A002D7703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E85F53001B733A0A002D7703 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E85F53031B733A0A002D7703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E85F53091B733A0A002D7703 /* DarkAvengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkAvengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85F530E1B733A0A002D7703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85F530F1B733A0A002D7703 /* DarkAvengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkAvengerTests.m; sourceTree = "<group>"; };
+		E85F531D1B733C02002D7703 /* AccueilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccueilViewController.h; path = ViewController/AccueilViewController.h; sourceTree = "<group>"; };
+		E85F531E1B733C02002D7703 /* AccueilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccueilViewController.m; path = ViewController/AccueilViewController.m; sourceTree = "<group>"; };
+		E85F53211B733C6C002D7703 /* VaisseauObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VaisseauObject.h; path = Class/VaisseauObject.h; sourceTree = "<group>"; };
+		E85F53221B733C6C002D7703 /* VaisseauObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VaisseauObject.m; path = Class/VaisseauObject.m; sourceTree = "<group>"; };
+		E85F53241B733F0B002D7703 /* AsteroideObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsteroideObject.h; path = Class/AsteroideObject.h; sourceTree = "<group>"; };
+		E85F53251B733F0B002D7703 /* AsteroideObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsteroideObject.m; path = Class/AsteroideObject.m; sourceTree = "<group>"; };
+		E85F53271B7340B2002D7703 /* MissileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MissileObject.h; path = Class/MissileObject.h; sourceTree = "<group>"; };
+		E85F53281B7340B2002D7703 /* MissileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MissileObject.m; path = Class/MissileObject.m; sourceTree = "<group>"; };
+		E85F532A1B7340C3002D7703 /* LaserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaserObject.h; path = Class/LaserObject.h; sourceTree = "<group>"; };
+		E85F532B1B7340C3002D7703 /* LaserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaserObject.m; path = Class/LaserObject.m; sourceTree = "<group>"; };
+		E87D88601B978854001D60BD /* GestionnaireAnimationAsteroide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestionnaireAnimationAsteroide.h; path = Class/GestionnaireAnimationAsteroide.h; sourceTree = "<group>"; };
+		E87D88611B978854001D60BD /* GestionnaireAnimationAsteroide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GestionnaireAnimationAsteroide.m; path = Class/GestionnaireAnimationAsteroide.m; sourceTree = "<group>"; };
+		E8DC61E21B749EF60075FD21 /* SpecificTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecificTableViewCell.h; path = Class/SpecificTableViewCell.h; sourceTree = "<group>"; };
+		E8DC61E31B749EF60075FD21 /* SpecificTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecificTableViewCell.m; path = Class/SpecificTableViewCell.m; sourceTree = "<group>"; };
+		E8DC61E51B74B2D80075FD21 /* SpecificWithoutImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecificWithoutImageTableViewCell.h; path = Class/SpecificWithoutImageTableViewCell.h; sourceTree = "<group>"; };
+		E8DC61E61B74B2D80075FD21 /* SpecificWithoutImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecificWithoutImageTableViewCell.m; path = Class/SpecificWithoutImageTableViewCell.m; sourceTree = "<group>"; };
+		E8DC61E81B74BCAA0075FD21 /* MenuVaisseauTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuVaisseauTableViewController.h; path = ViewController/MenuVaisseauTableViewController.h; sourceTree = "<group>"; };
+		E8DC61E91B74BCAA0075FD21 /* MenuVaisseauTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuVaisseauTableViewController.m; path = ViewController/MenuVaisseauTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E85F52EA1B733A0A002D7703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85F53061B733A0A002D7703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E85F52E41B733A0A002D7703 = {
+			isa = PBXGroup;
+			children = (
+				E85F52EF1B733A0A002D7703 /* DarkAvenger */,
+				E85F530C1B733A0A002D7703 /* DarkAvengerTests */,
+				E85F52EE1B733A0A002D7703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E85F52EE1B733A0A002D7703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E85F52ED1B733A0A002D7703 /* DarkAvenger.app */,
+				E85F53091B733A0A002D7703 /* DarkAvengerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E85F52EF1B733A0A002D7703 /* DarkAvenger */ = {
+			isa = PBXGroup;
+			children = (
+				E85F52F41B733A0A002D7703 /* AppDelegate.h */,
+				E85F52F51B733A0A002D7703 /* AppDelegate.m */,
+				E8585E541B748E560077284E /* Localizable.strings */,
+				E85F53191B733A83002D7703 /* ViewController */,
+				E85F53201B733C0A002D7703 /* Class */,
+				E85F52FD1B733A0A002D7703 /* Main.storyboard */,
+				E85F53001B733A0A002D7703 /* Images.xcassets */,
+				E85F53021B733A0A002D7703 /* LaunchScreen.xib */,
+				E85F52F71B733A0A002D7703 /* DarkAvenger.xcdatamodeld */,
+				E85F52F01B733A0A002D7703 /* Supporting Files */,
+			);
+			path = DarkAvenger;
+			sourceTree = "<group>";
+		};
+		E85F52F01B733A0A002D7703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85F52F11B733A0A002D7703 /* Info.plist */,
+				E85F52F21B733A0A002D7703 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85F530C1B733A0A002D7703 /* DarkAvengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E85F530F1B733A0A002D7703 /* DarkAvengerTests.m */,
+				E85F530D1B733A0A002D7703 /* Supporting Files */,
+			);
+			path = DarkAvengerTests;
+			sourceTree = "<group>";
+		};
+		E85F530D1B733A0A002D7703 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85F530E1B733A0A002D7703 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85F53191B733A83002D7703 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E85F531D1B733C02002D7703 /* AccueilViewController.h */,
+				E85F531E1B733C02002D7703 /* AccueilViewController.m */,
+				E815CBAC1B73CD2F0082C825 /* CreditsViewController.h */,
+				E815CBAD1B73CD2F0082C825 /* CreditsViewController.m */,
+				E8DC61E81B74BCAA0075FD21 /* MenuVaisseauTableViewController.h */,
+				E8DC61E91B74BCAA0075FD21 /* MenuVaisseauTableViewController.m */,
+				E815A65D1B7644E30070D479 /* MenuMissionsTableViewController.h */,
+				E815A65E1B7644E30070D479 /* MenuMissionsTableViewController.m */,
+				E84221AB1B777CA40015C665 /* GameViewController.h */,
+				E84221AC1B777CA40015C665 /* GameViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E85F53201B733C0A002D7703 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E809F9BB1B7B6CF200D5D968 /* SpecificLabelWithImage.h */,
+				E809F9BC1B7B6CF200D5D968 /* SpecificLabelWithImage.m */,
+				E8DC61E21B749EF60075FD21 /* SpecificTableViewCell.h */,
+				E8DC61E31B749EF60075FD21 /* SpecificTableViewCell.m */,
+				E8DC61E51B74B2D80075FD21 /* SpecificWithoutImageTableViewCell.h */,
+				E8DC61E61B74B2D80075FD21 /* SpecificWithoutImageTableViewCell.m */,
+				E85F53211B733C6C002D7703 /* VaisseauObject.h */,
+				E85F53221B733C6C002D7703 /* VaisseauObject.m */,
+				E85F53241B733F0B002D7703 /* AsteroideObject.h */,
+				E85F53251B733F0B002D7703 /* AsteroideObject.m */,
+				E85F53271B7340B2002D7703 /* MissileObject.h */,
+				E85F53281B7340B2002D7703 /* MissileObject.m */,
+				E85F532A1B7340C3002D7703 /* LaserObject.h */,
+				E85F532B1B7340C3002D7703 /* LaserObject.m */,
+				E815BBAA1B74EE9B000D84C9 /* GestionnaireCaracteristiquesVaisseau.h */,
+				E815BBAB1B74EE9B000D84C9 /* GestionnaireCaracteristiquesVaisseau.m */,
+				E84221A81B7750980015C665 /* GestionnaireCaracteristiquesMission.h */,
+				E84221A91B7750980015C665 /* GestionnaireCaracteristiquesMission.m */,
+				E84221AE1B7785230015C665 /* GestionnaireCollision.h */,
+				E84221AF1B7785230015C665 /* GestionnaireCollision.m */,
+				E87D88601B978854001D60BD /* GestionnaireAnimationAsteroide.h */,
+				E87D88611B978854001D60BD /* GestionnaireAnimationAsteroide.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E85F52EC1B733A0A002D7703 /* DarkAvenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85F53131B733A0A002D7703 /* Build configuration list for PBXNativeTarget "DarkAvenger" */;
+			buildPhases = (
+				E85F52E91B733A0A002D7703 /* Sources */,
+				E85F52EA1B733A0A002D7703 /* Frameworks */,
+				E85F52EB1B733A0A002D7703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkAvenger;
+			productName = DarkAvenger;
+			productReference = E85F52ED1B733A0A002D7703 /* DarkAvenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E85F53081B733A0A002D7703 /* DarkAvengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85F53161B733A0A002D7703 /* Build configuration list for PBXNativeTarget "DarkAvengerTests" */;
+			buildPhases = (
+				E85F53051B733A0A002D7703 /* Sources */,
+				E85F53061B733A0A002D7703 /* Frameworks */,
+				E85F53071B733A0A002D7703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E85F530B1B733A0A002D7703 /* PBXTargetDependency */,
+			);
+			name = DarkAvengerTests;
+			productName = DarkAvengerTests;
+			productReference = E85F53091B733A0A002D7703 /* DarkAvengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85F52E51B733A0A002D7703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ThomasNeyraut;
+				TargetAttributes = {
+					E85F52EC1B733A0A002D7703 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E85F53081B733A0A002D7703 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E85F52EC1B733A0A002D7703;
+					};
+				};
+			};
+			buildConfigurationList = E85F52E81B733A0A002D7703 /* Build configuration list for PBXProject "DarkAvenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E85F52E41B733A0A002D7703;
+			productRefGroup = E85F52EE1B733A0A002D7703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E85F52EC1B733A0A002D7703 /* DarkAvenger */,
+				E85F53081B733A0A002D7703 /* DarkAvengerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E85F52EB1B733A0A002D7703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85F52FF1B733A0A002D7703 /* Main.storyboard in Resources */,
+				E8585E551B748E560077284E /* Localizable.strings in Resources */,
+				E85F53041B733A0A002D7703 /* LaunchScreen.xib in Resources */,
+				E85F53011B733A0A002D7703 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85F53071B733A0A002D7703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E85F52E91B733A0A002D7703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85F53291B7340B2002D7703 /* MissileObject.m in Sources */,
+				E85F53231B733C6C002D7703 /* VaisseauObject.m in Sources */,
+				E85F52F61B733A0A002D7703 /* AppDelegate.m in Sources */,
+				E84221B01B7785230015C665 /* GestionnaireCollision.m in Sources */,
+				E815BBAC1B74EE9B000D84C9 /* GestionnaireCaracteristiquesVaisseau.m in Sources */,
+				E84221AA1B7750980015C665 /* GestionnaireCaracteristiquesMission.m in Sources */,
+				E8DC61EA1B74BCAA0075FD21 /* MenuVaisseauTableViewController.m in Sources */,
+				E815CBAE1B73CD2F0082C825 /* CreditsViewController.m in Sources */,
+				E809F9BD1B7B6CF200D5D968 /* SpecificLabelWithImage.m in Sources */,
+				E85F52F91B733A0A002D7703 /* DarkAvenger.xcdatamodeld in Sources */,
+				E84221AD1B777CA40015C665 /* GameViewController.m in Sources */,
+				E8DC61E41B749EF60075FD21 /* SpecificTableViewCell.m in Sources */,
+				E8DC61E71B74B2D80075FD21 /* SpecificWithoutImageTableViewCell.m in Sources */,
+				E85F53261B733F0B002D7703 /* AsteroideObject.m in Sources */,
+				E85F52F31B733A0A002D7703 /* main.m in Sources */,
+				E87D88621B978854001D60BD /* GestionnaireAnimationAsteroide.m in Sources */,
+				E815A65F1B7644E30070D479 /* MenuMissionsTableViewController.m in Sources */,
+				E85F532C1B7340C3002D7703 /* LaserObject.m in Sources */,
+				E85F531F1B733C02002D7703 /* AccueilViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85F53051B733A0A002D7703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85F53101B733A0A002D7703 /* DarkAvengerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E85F530B1B733A0A002D7703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E85F52EC1B733A0A002D7703 /* DarkAvenger */;
+			targetProxy = E85F530A1B733A0A002D7703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E85F52FD1B733A0A002D7703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85F52FE1B733A0A002D7703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E85F53021B733A0A002D7703 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E85F53031B733A0A002D7703 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E85F53111B733A0A002D7703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E85F53121B733A0A002D7703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E85F53141B733A0A002D7703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DarkAvenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E85F53151B733A0A002D7703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DarkAvenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E85F53171B733A0A002D7703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DarkAvengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkAvenger.app/DarkAvenger";
+			};
+			name = Debug;
+		};
+		E85F53181B733A0A002D7703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DarkAvengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkAvenger.app/DarkAvenger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E85F52E81B733A0A002D7703 /* Build configuration list for PBXProject "DarkAvenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85F53111B733A0A002D7703 /* Debug */,
+				E85F53121B733A0A002D7703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85F53131B733A0A002D7703 /* Build configuration list for PBXNativeTarget "DarkAvenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85F53141B733A0A002D7703 /* Debug */,
+				E85F53151B733A0A002D7703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E85F53161B733A0A002D7703 /* Build configuration list for PBXNativeTarget "DarkAvengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85F53171B733A0A002D7703 /* Debug */,
+				E85F53181B733A0A002D7703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E85F52F71B733A0A002D7703 /* DarkAvenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E85F52F81B733A0A002D7703 /* DarkAvenger.xcdatamodel */,
+			);
+			currentVersion = E85F52F81B733A0A002D7703 /* DarkAvenger.xcdatamodel */;
+			path = DarkAvenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E85F52E51B733A0A002D7703 /* Project object */;
+}

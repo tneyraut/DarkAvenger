@@ -1,0 +1,98 @@
+// IMAGES
+"IMAGE_NAME_ASTEROID" = "asteroid.png";
+"IMAGE_NAME_BOUCLIER" = "bouclier.png";
+"IMAGE_NAME_BUTTON+" = "button+.png";
+"IMAGE_NAME_BUTTON_CREDITS" = "buttonCredits.png";
+"IMAGE_NAME_BUTTON_LASER" = "buttonLaser.png";
+"IMAGE_NAME_BUTTON_MISSILE" = "buttonMissile.png";
+"IMAGE_NAME_BUTTON_MISSION" = "buttonMission.png";
+"IMAGE_NAME_COEUR" = "coeur.png";
+"IMAGE_NAME_EXPLOSION" = "explosion.png";
+"IMAGE_NAME_FOND" = "fond.png";
+"IMAGE_NAME_LASER" = "laser.png";
+"IMAGE_NAME_LASER_IA" = "laserIA.png";
+"IMAGE_NAME_MISSILE" = "missile.png";
+"IMAGE_NAME_MISSILE_IA" = "missileIA.png";
+"IMAGE_NAME_MISSILE_INDICATEUR" = "missileIndicateur.png";
+"IMAGE_NAME_OK" = "ok.png";
+"IMAGE_NAME_VAISSEAU" = "vaisseau.png";
+"IMAGE_NAME_VAISSEAU_IA" = "vaisseauIA.png";
+"IMAGE_NAME_COQUE" = "coque.png";
+"IMAGE_NAME_DEGATS" = "degats.png";
+"IMAGE_NAME_TIMER" = "timer.png";
+"IMAGE_NAME_ICON_BOUCLIER" = "iconBouclier.png";
+"IMAGE_NAME_ICON_COINS" = "coins.png";
+"IMAGE_NAME_ICON_XP" = "iconXP.png";
+
+// SAVE KEY CARACTERISTIQUES VAISSEAU
+"KEY_NAME_COQUE_ACTUELLE" = "coqueActuelle";
+
+"KEY_NAME_COQUE_CAPACITE" = "coqueCapacite";
+
+"KEY_NAME_BOUCLIER_CAPACITE" = "bouclierCapacite";
+
+"KEY_NAME_MISSILE_CAPACITE" = "missileCapacite";
+
+"KEY_NAME_NOMBRE_MISSILE_RESTANT" = "nombreMissileRestant";
+
+"KEY_NAME_MISSILE_DEGATS" = "missileDegats";
+
+"KEY_NAME_TEMPS_DE_RECHARGEMENT_MISSILE" = "tempsDeRechargementMissile";
+
+"KEY_NAME_LASER_DEGATS" = "laserDegats";
+
+"KEY_NAME_TEMPS_DE_RECHARGEMENT_LASER" = "tempsDeRechargementLaser";
+
+"KEY_NAME_TEMPS_DE_RECHARGEMENT_BOUCLIER" = "tempsDeRechargementBouclier";
+
+// SAVE KEY AMELIORATION ACHAT
+"KEY_NAME_COUT_REPARATION_VAISSEAU" = "coutReparationVaisseau";
+
+"KEY_NAME_COUT_AMELIORATION_COQUE" = "coutAmeliorationCoque";
+"KEY_NAME_AMELIORATION_COQUE" = "ameliorationCoque";
+
+"KEY_NAME_COUT_AMELIORATION_BOUCLIER" = "coutAmeliorationBouclier";
+"KEY_NAME_AMELIORATION_BOUCLIER" = "ameliorationBouclier";
+
+"KEY_NAME_COUT_AMELIORATION_TEMPS_DE_RECHARGEMENT_BOUCLIER" = "coutAmeliorationTempsDeRechargementMissile";
+"KEY_NAME_AMELIORATION_TEMPS_DE_RECHARGEMENT_BOUCLIER" = "ameliorationTempsDeRechargementMissile";
+
+"KEY_NAME_COUT_AMELIORATION_CAPACITE_MISSILE" = "coutAmeliorationCapaciteMissile";
+"KEY_NAME_AMELIORATION_CAPACITE_MISSILE" = "ameliorationCapaciteMissile";
+
+"KEY_NAME_COUT_AMELIORATION_DEGATS_MISSILE" = "coutAmeliorationDegatsMissile";
+"KEY_NAME_AMELIORATION_DEGATS_MISSILE" = "ameliorationDegatsMissile";
+
+"KEY_NAME_COUT_AMELIORATION_TEMPS_DE_RECHARGEMENT_MISSILE" = "coutAmeliorationTempsDeRechargementMissile";
+"KEY_NAME_AMELIORATION_TEMPS_DE_RECHARGEMENT_MISSILE" = "meliorationTempsDeRechargementMissile";
+
+"KEY_NAME_COUT_ACHAT_MISSILE" = "coutAchatMissile";
+
+"KEY_NAME_COUT_AMELIORATION_DEGATS_LASER" = "coutAmeliorationDegatsLaser";
+"KEY_NAME_AMELIORATION_DEGATS_LASER" = "ameliorationDegatsLaser";
+
+"KEY_NAME_COUT_AMELIORATION_TEMPS_DE_RECHARGEMENT_LASER" = "coutAmeliorationTempsDeRechargementLaser";
+"KEY_NAME_AMELIORATION_TEMPS_DE_RECHARGEMENT_LASER" = "ameliorationTempsDeRechargementLaser";
+
+// SAVE KEY PROFIL CARACTERISTIQUES
+"KEY_NAME_LEVEL" = "level";
+
+"KEY_NAME_XP_OBJECTIF" = "xpObjectif";
+"KEY_NAME_XP_ACCUMULES" = "xpAccumules";
+
+"KEY_NAME_RECOMPENSE_LEVEL_UP" = "recompenseLevelUP";
+
+"KEY_NAME_COINS" = "coins";
+
+"KEY_NAME_LAST_MISSION_NUMBER" = "lastMissionNumber";
+
+// SAVE KEY CARACTERISTIQUES MISSION
+"KEY_NAME_RECOMPENSE_XP_MISSION" = "recompenseXPMission";
+
+"KEY_NAME_RECOMPENSE_COINS_MISSION" = "recompenseCoinsMission";
+
+"KEY_NAME_BOSS_MISSION" = "bossMission";
+
+"KEY_NAME_LEVEL_CHOISI" = "levelChoisi";
+
+"KEY_NAME_XP_ENNEMIS_KILL" = "xpEnnemisKill";
